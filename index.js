@@ -42,6 +42,22 @@ function renderFreelancers() {
   const averagePriceElement = document.querySelector('#average-starting-price');
   averagePriceElement.textContent = `Average Starting Price: ${averageStartingPrice}`;
 
+
+// // ** This section allows a initial render in the JavaScript code to include
+// // a "Welcome to" message along with the title. **//
+// //
+// const welcomeMessage = document.createElement('div');
+// welcomeMessage.textContent = 'Welcome to';
+// welcomeMessage.style.fontSize = '18px'; // Adjust the font size as needed
+
+// const titleElement = document.getElementById('title');
+// titleElement.innerHTML = ''; // Clear previous content
+// titleElement.appendChild(welcomeMessage);
+// titleElement.appendChild(document.createTextNode('Freelancer Forum'));
+// // ***  Section ends /// ** cant get it to work home i wanted so i am just leaving it here for reference
+
+
+
   const freelancersList = document.querySelector('#freelancers-list');
   freelancersList.innerHTML = ''; // Clear previous content
 
